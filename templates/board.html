@@ -1,0 +1,18 @@
+<div class="char_container container">
+	{% for r in range(number_of_chars_per_side) %}
+		<div class="char_row row m-1 p-0 d-flex flex-nowrap">
+			{% for c in range(number_of_chars_per_side) %}
+				<div class="char_cell col border border-success rounded p-0 m-1">
+						 {#width="javascript:cellWidth()">#}
+						 {#style="width:{{ get_char_cell_size_in_pct() }}%;">#}
+							 {#padding-top: {{ char_cell_size_in_pct * 0.75 }}% !important;">#}
+							 {#height: {{ char_cell_size_in_pct }}% !important;">#}
+					{#<div class="char">{{ char_sample[r * number_of_letters_per_side + c] }}</div>#}
+					<div class="char">{{ board[r][c] }}</div>
+				</div>
+			{% endfor %}
+		</div>
+	{% endfor %}
+</div>
+
+

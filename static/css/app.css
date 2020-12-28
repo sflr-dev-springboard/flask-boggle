@@ -1,0 +1,192 @@
+html, body {
+	width            : 100%;
+	background-color : #aaaaaa;
+	}
+
+#main {
+	/*border: 3px solid magenta;*/
+	text-align    : center;
+	width         : 100%;
+	padding-left  : 10%;
+	padding-right : 10%;
+	}
+
+.fluid-container {
+	/*border     : 2px solid blue;*/
+	text-align : center !Important;
+	}
+
+.row {
+	/*border: 1px solid darkgreen;*/
+	margin-top : 0.5rem;
+	}
+
+#below_timer {
+	padding    : 0;
+	margin-top : 1rem;
+	}
+
+div[class^="col-"] {
+	/*border: 1px solid black !important;*/
+	}
+
+div[id^="bt-"] {
+	/*border: 1px solid black !important;*/
+	width : 100%;
+	}
+
+#timer_div {
+	text-align    : center;
+	/*padding: 2rem;*/
+	font-size     : 5vw;
+	/*border        : 1px solid red;*/
+	width         : 12vw;
+	height        : 12vw;
+	line-height   : 12vw;
+	border-radius : 6vw;
+	margin        : 0 auto;
+	}
+
+#timer_container {
+	/*border: 1px solid red !important;*/
+	text-align : center;
+	padding    : 0;
+	}
+
+.custom-select {
+	width     : 100% !important;
+	/*background-color: blue;*/
+	font-size : 0.8rem;
+	}
+
+#above_board {
+	background-color : #eac7a4;
+	font-size        : 0.8em;
+	}
+
+#board {
+	width   : 100% !important;
+	height  : 100% !important;
+	padding : 0 !important;
+	}
+
+.char_container {
+	width   : 100% !important;
+	height  : 100% !important;
+	padding : 0 !important;
+	}
+
+.char_row {
+	width   : 100% !important;
+	height  : 100% !important;
+	padding : 0 !important;
+	}
+
+.char {
+	font-size  : 4vw !important;
+	/*padding: 0 0 10% 50%!important;*/
+	text-align : center;
+	position   : relative;
+	top        : 50% !important;
+	transform  : translateY(-50%) !important;
+	}
+
+.char_cell {
+	background-color : #eac7a4;
+	background-image : url("data:image/svg+xml,%3Csvg width='80' height='88' viewBox='0 0 80 88' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22 21.91V26h-2c-9.94 0-18 8.06-18 18 0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73 3.212-6.99 9.983-12.008 18-12.73V62h2c9.94 0 18-8.06 18-18 0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73-3.212 6.99-9.983 12.008-18 12.73zM54 58v4.696c-5.574 1.316-10.455 4.428-14 8.69-3.545-4.262-8.426-7.374-14-8.69V58h-5.993C12.27 58 6 51.734 6 44c0-7.732 6.275-14 14.007-14H26v-4.696c5.574-1.316 10.455-4.428 14-8.69 3.545 4.262 8.426 7.374 14 8.69V30h5.993C67.73 30 74 36.266 74 44c0 7.732-6.275 14-14.007 14H54zM42 88c0-9.94 8.06-18 18-18h2v-4.09c8.016-.722 14.787-5.738 18-12.73v7.434c-3.545 4.262-8.426 7.374-14 8.69V74h-5.993C52.275 74 46 80.268 46 88h-4zm-4 0c0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73v7.434c3.545 4.262 8.426 7.374 14 8.69V74h5.993C27.73 74 34 80.266 34 88h4zm4-88c0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73v-7.434c-3.545-4.262-8.426-7.374-14-8.69V14h-5.993C52.27 14 46 7.734 46 0h-4zM0 34.82c3.213-6.992 9.984-12.008 18-12.73V18h2c9.94 0 18-8.06 18-18h-4c0 7.732-6.275 14-14.007 14H14v4.696c-5.574 1.316-10.455 4.428-14 8.69v7.433z' fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+	transition       : transform 0.5s;
+	border-width     : 3px !important;
+	}
+
+.char_cell:hover {
+	transform : scale(1.5);
+	z-index   : 10000 !important;
+	}
+
+#below_board {
+	font-size : 0.8em;
+	}
+
+.form-control {
+	font-size : 0.9em;
+	}
+
+.btn {
+	white-space : nowrap;
+	font-size   : 0.8em;
+	}
+
+#card {
+	/*text-align : center;*/
+	margin : 0 auto;
+	}
+
+#card_word {
+	text-align       : center !important;
+	font-size        : 2vm;
+	width            : 90%;
+	border-radius    : 2vw;
+	background-color : #cccccc;
+	text-transform   : uppercase;
+	margin           : 0 auto;
+	}
+
+#card_definitions {
+	width         : 90%;
+	margin        : 0 auto;
+	font-size     : 1.8vw;
+	text-align    : left;
+	font-style    : italic;
+	border-left   : 3px solid gray;
+	border-bottom : 1px solid gray;
+	}
+
+li {
+	list-style-type : square;
+	}
+
+#defns_source {
+	width      : 90%;
+	margin     : 0 auto;
+	font-size  : 1.5vw;
+	font-style : italic;
+	text-align : right;
+	}
+
+.form-control {
+	text-align : center !important;
+	font-size  : 2vw;
+	}
+
+#above_table {
+	vertical-align : middle;
+	padding        : 2vw 0 0 0;
+	}
+
+#history_table_div {
+	overflow : auto;
+	padding  : 0;
+	}
+
+#history_table {
+	font-size : 2vw;
+	}
+
+#history_table thead {
+	vertical-align : middle;
+	}
+
+#history_table tbody {
+	}
+
+#th, td {
+	/*border: 1px solid red;*/
+	min-width  : 6vw;
+	margin     : 0.5vw;
+	text-align : center;
+	}
+
+#below_table {
+	font-size : 1.5vw;
+	padding   : 0;
+	}
